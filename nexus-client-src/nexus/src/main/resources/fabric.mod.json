@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "nexus",
+  "version": "${version}",
+  "name": "Nexus Client",
+  "description": "Utility client z 3D ClickGUI.",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.nexus.NexusClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
